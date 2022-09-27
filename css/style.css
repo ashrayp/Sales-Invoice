@@ -1,0 +1,183 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  background: rgb(204, 204, 204);
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  overflow-x: hidden;
+}
+
+/* wrapper starts */
+
+.wrapper {
+  margin: 0px 20px 0px 20px;
+}
+
+.three-box {
+  width: 100%;
+  display: flex;
+}
+
+.bar-code {
+  width: 30%;
+  margin: 10px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+.bar-code img {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.para-img {
+  width: 37%;
+  text-align: center;
+  margin: 10px 5px 0px 0px;
+  text-transform: uppercase;
+}
+
+.para-img img {
+  width: 37%;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.tax {
+  width: 33%;
+  text-align: right;
+  line-height: 18px;
+  margin: 10px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+.tax button {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+/* wrapper starts */
+
+/* detail info starts */
+
+.detail {
+  width: 60%;
+  display: flex;
+  font-size: 12px;
+}
+
+.detail ul {
+  list-style: none;
+}
+
+.detail ol,
+.detail ul {
+  width: 30%;
+}
+
+table td {
+  font-size: 12px;
+}
+
+table .space {
+  width: 40%;
+}
+
+.first tr td {
+  border: 1px solid;
+}
+
+/* detail info starts */
+
+/* first table starts */
+.first {
+  border: 1px solid;
+}
+
+.first tr td {
+  border: 1px solid;
+}
+
+.whole-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left {
+  width: 49.8%;
+}
+.left table,
+.right table {
+  width: 100%;
+}
+
+.right {
+  width: 49.8%;
+}
+
+/* table ends */
+
+/* mid-part starts */
+
+.mid-part {
+  margin-top: 60px;
+}
+
+/* mid-part ends */
+
+/* second-table starts */
+
+.second-table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.second-table tr td {
+  border: 1px solid;
+  text-align: center;
+  font-size: 12px;
+}
+
+.second-table .charges-info {
+  text-align: start;
+  line-height: 18px;
+}
+.charges-info {
+  align-items: flex-end;
+}
+
+.second-table .sub-info {
+  text-align: inherit;
+  line-height: 18px;
+}
+
+/* second-table ends */
+
+/* Bottom-marks */
+.bottom-marks {
+  margin-top: 10px;
+}
